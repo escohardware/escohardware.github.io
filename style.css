@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Girassol|Orbitron|Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Girassol|Lakki+Reddy|Orbitron|Patrick+Hand&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/Construction-crane_1.jpg");
+    background-size: cover;
+
+}
+
+.navbar {
+    background-color: transparent;
+    position: relative;
+    z-index: 4;
+}
+
+.nav-link {
+    font-size: 16px;
+}
+
+main {
+    position: absolute;
+    z-index: 0;
+    top: 0%;
+}
+
+.cover {
+    width: 100%;
+    height: 55vmin;
+    background-image: url("../my website/images/937109.jpg");
+    background-position: 24rem -19rem;
+    background-size: 150%;
+    position: relative;
+}
+
+.cover .content {
+    background: rgba(0, 0, 0, 0.2);
+    height: 100%;
+    width: 100%;
+    padding-top: 19vmin;
+}
+
+.cover .content>h1 {
+    font-family: var(--single-font);
+    color: orange;
+    font-size: 6vmin;
+}
+
+.cover .content>p {
+    font-family: var(--single-font);
+    font-size: 2vmin;
+    color: white;
+}
+
+.numbers .rect {
+    position: relative;
+    z-index: 1;
+    background: whitesmoke;
+    width: 17rem;
+    height: 10rem;
+    padding-top: 2vmin;
+    margin: 1rem;
+    border-radius: 5em;
+    box-shadow: 1px 2px 50px 0px rgba(255, 0, 0, 0.392);
+}
+
+.numbers {
+    margin-top: -10vmin;
+}
+
+.numbers .rect h1 {
+    font-size: 5rem;
+    color: orangered;
+}
+
+.purchase>h1 {
+    padding-top: 15vmin;
+    padding-bottom: 0.1em;
+    font-family: var(--single-font);
+    color: white;
+}
+
+.purchase>p {
+    color: white;
+    font-size: 3vmin;
+    padding-bottom: 8vmin;
+}
+
+.purchase .cards .card-1 {
+    width: 22rem;
+    margin: 3vmin;
+    background: url("images/500_F_207467171_qozkkkhLANxafgalKV77cjkdTtZ6JDH0.jpg");
+    background-position: center;
+    background-size: cover;
+
+}
+
+.purchase .cards .card-2 {
+    width: 22rem;
+    margin: 3vmin;
+    background: url("images/114270023-hand-in-green-protective-rubber-glove-isolated-on-black-background-with-clipping-path-gloved-hand-co.jpg");
+    background-position: center;
+    background-size: cover;
+
+}
+
+.purchase .cards .card-3 {
+    width: 22rem;
+    margin: 3vmin;
+    background: url("images/500_F_181818090_Du2HP1HoSUnk1LmsFWXS8ptClFwG36I7.jpg");
+    background-position: center;
+    background-size: cover;
+
+}
+
+.purchase .cards .card-4 {
+    width: 22rem;
+    margin: 3vmin;
+    background: url("images/depositphotos_219425816-stock-photo-colorful-paint-leaking-part-metal.jpg");
+    background-position: center;
+    background-size: cover;
+
+}
+
+.purchase .cards .card-5 {
+    width: 22rem;
+    margin: 3vmin;
+    background: url("images/tile-roof-sheet-250x250.jpg");
+    background-position: center;
+    background-size: cover;
+
+}
+
+.purchase .cards .card-6 {
+    width: 22rem;
+    margin: 3vmin;
+    background: url("images/166-1666531_water-plumber.jpg");
+    background-position: center;
+    background-size: cover;
+
+}
+
+.purchase .cards .card-7 {
+    width: 22rem;
+    margin: 3vmin;
+    background: url("images/60853346-cuero-guantes-de-protección-garra-martillo-pinzas-tijeras-de-hojalatero-llave-ajustable-sobre-tabla-de-.jpg");
+    background-position: center;
+    background-size: cover;
+
+}
+
+.purchase .cards .card-8 {
+    width: 22rem;
+    margin: 3vmin;
+    background: url("images/image.jpg");
+    background-position: center;
+    background-size: cover;
+
+}
+
+.purchase .cards .card-9 {
+    width: 22rem;
+    margin: 3vmin;
+    background: url("images/depositphotos_126256666-stock-photo-plumber-tools-on-background.jpg");
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+
+
+.cards div {
+    padding: 0;
+    margin: 0;
+}
+
+.cards .title {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 1.4rem 2.5rem;
+    font-size: 2vmin;
+    color: black;
+}
+
+.cards .title:hover {
+
+    color: slategray;
+}
+
+.cards .card-text {
+    padding: 2.5rem 3rem;
+    color: white;
+}
+
+.card-body .price {
+    color: white;
+
+}
+
+.card-body .price:hover {
+    background: slategray;
+    border-top-right-radius: 170px;
+    border-top-left-radius: 170px;
+
+}
+
+.card-body .price>h1 {
+    font-size: 5vmin;
+    padding: 1em 0.5em;
+}
+
+.navbar-brand {
+    padding-top: 24%;
+    padding-left: 23%;
+
+}
+
+.section-2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/17996577-black-and-white-brick-background.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.section-4 {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/773748.jpg");
+    background-size: cover;
+    background-position: center center;
+
+}
+.section-4 .container h1 {
+    font-size: 6vmin;
+    padding-top: 16vmin;
+    color: black;
+
+}
+
+.section-4 .container p {
+    color: black;
+}
+
+.section-4 .team {
+    padding: 10vmin 14vmin;
+
+}
+
+.section-4 .card {
+    width: 22rem;
+    margin-top: 10vmin;
+    background: black;
+}
+
+.section-4 .card .card-text {
+    padding: 0.5em;
+    color: white;
+}
+
+.section-4 .card .card-body>a {
+    font-size: 1.5em;
+}
+
+.section-4 .card:hover {
+    color: orange;
+    box-shadow: coral;
+}
+
+.border-radius {
+    border-radius: 340px;
+
+}
+
+footer {
+    background: black;
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+
+}
+
+footer p>span {
+    color: coral;
+
+}
+
+footer input {
+    border: none !important;
+
+}
+
+footer input::placeholder {
+    color: whitesmoke;
+}
+
+footer .input-group .input-group-text {
+
+    border: none;
+}
+
+footer .column i {
+    color: orangered;
+    padding: 2px 7px;
+}
+
+.contain {
+    width: 1280px;
+    margin: 70px auto 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.contain .box {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background: yellowgreen;
+    margin: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.contain .box .img-box {
+    position: relative;
+    overflow: hidden;
+}
+
+.contain .box .img-box img {
+    max-width: 100%;
+    transition: transform 2s;
+}
+
+.contain .box:hover .img-box img {
+    transform: scale(1.2);
+}
+
+.contain .box .detail {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    background: rgba(0, 0, 0, 0.8);
+
+}
